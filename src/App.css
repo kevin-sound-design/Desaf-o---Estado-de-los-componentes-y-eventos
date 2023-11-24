@@ -1,0 +1,63 @@
+.registro{
+    background-color: white;
+    border-radius: 2rem;
+    height: 80vh;
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    gap: 2rem;
+}
+.registro h1{
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.registro-socialButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.socialButton{
+    height: 5em;
+    width: 5em;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    font-size: 3rem
+}
+.registro-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+    width: 80%;
+}
+.registro-formulario input{
+    width: 80%;
+    height: 3rem;
+    border-radius: 0.5em;
+    border-color: rgba(0, 0, 0, 0.288);
+    text-align: left;
+    text-indent: 1rem;
+
+}
+.registro-formulario button{
+    width: 80%;
+    height: 3rem;
+    border-radius: 0.5em;
+    border: none;
+    background-color:#2C8854;
+    color: white;
+}
+.lista{
+    list-style: none;
+    width: 80%;
+}
